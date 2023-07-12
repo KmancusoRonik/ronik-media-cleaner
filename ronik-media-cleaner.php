@@ -44,9 +44,9 @@ define( 'RONIK_MEDIA_CLEANER_VERSION', '1.0.1' );
 require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/ronik-design/ronikdesign',
+	'https://github.com/ronik-design/ronik-media-cleaner',
 	__FILE__,
-	'ronikdesignPlugin'
+	'ronik-media-cleanerPlugin'
 );
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
