@@ -16,7 +16,7 @@
  * Plugin Name:       Ronik Media Cleaner
  * Plugin URI:        https://www.ronikdesign.com/
  * Description:       Media Cleaner is a highly effective plugin that aids in the organization and maintenance of your WordPress media library. It accomplishes this by removing unused media entries and files, while also repairing any broken entries present.
- * Version:           1.0.2
+ * Version:           1.0.0
  * Author:            Kevin Mancuso
  * Author URI:        https://kmancuso.com/
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'RONIK_MEDIA_CLEANER_VERSION', '1.0.2' );
+define( 'RONIK_MEDIA_CLEANER_VERSION', '1.0.0' );
 
 
 /**
@@ -46,7 +46,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 $myUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://github.com/ronik-design/ronik-media-cleaner',
 	__FILE__,
-	'ronikmediacleanerPlugin'
+	'ronikmediacleaner'
 );
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
